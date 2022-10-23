@@ -7,7 +7,7 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;  
-    background-color: azure;
+    background-color: rgb(189, 231, 249);
 
 }
 
@@ -21,6 +21,8 @@ body{
 
 .title{
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
     
 }
 
@@ -37,6 +39,7 @@ body{
     margin: 8px;
     gap: 5px;
     border-radius:10px;
+    
     
     
    
@@ -107,8 +110,18 @@ button:hover {
     justify-content: flex-end;
     align-items: flex-end;
     border-radius: 10px;
+    flex-direction: column;
+}
 
+.res{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 5px;
+}
 
+.resLast{
+    font-size: 25px;
+    padding: 5px;
 }
 
 .blue{
@@ -123,4 +136,8 @@ button:hover {
     background-color: #FF6F3C;
 }
 
-
+.digit{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}

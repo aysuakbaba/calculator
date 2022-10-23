@@ -3,57 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+      
     <title>AYSU'S CALCULATOR</title>
   </head>
-  
+
   <body>
     <h1 class="title">AYSU'S CALCULATOR</h1>
-   
+
     <div class="container">
-      
       <div class="rows">
         <div class="result">
-            <div class="screen-last" id="lastOperationScreen"></div>
-            <div class="res" id="currentOperationScreen">0</div>
-
-            
+          <div class="resLast" id="lastOperationScreen"></div>
+          <div class="res" id="currentOperationScreen">0</div>
         </div>
-        
+
         <div class="first-row">
           <button class="blue" id="clearBtn">AC</button>
-          <button class="blue" data-operator>+/-</button>
-          <button class="blue" data-operator>%</button>
-          <button class="orange" data-operator>/</button>
+          <button class="blue operator plusminus">+/-</button>
+          <button class="blue operator percent">%</button>
+          <button class="orange operator backslash">/</button>
         </div>
         <div class="second-row">
-          <button class="green" data-number>7</button>
-          <button class="green" data-number>8</button>
-          <button class="green" data-number>9</button>
-          <button class="orange" data-operator>*</button>
+          <button class="green num">7</button>
+          <button class="green num">8</button>
+          <button class="green num">9</button>
+          <button class="orange operator star">*</button>
         </div>
         <div class="third-row">
-          <button class="green" data-number>4</button>
-          <button class="green" data-number>5</button>
-          <button class="green" data-number>6</button>
-          <button class="orange" data-operator>-</button>
+          <button class="green num">4</button>
+          <button class="green num">5</button>
+          <button class="green num">6</button>
+          <button class="orange operator minus">-</button>
         </div>
         <div class="forth-row">
-          <button class="green" data-number>1</button>
-          <button class="green" data-number>2</button>
-          <button class="green" data-number>3</button>
-          <button class="orange" data-operator>+</button>
+          <button class="green num">1</button>
+          <button class="green num">2</button>
+          <button class="green num">3</button>
+          <button class="orange operator plus">+</button>
         </div>
         <div class="fifth-row">
           <button class="delete" id="deleteBtn">C</button>
-          <button class="green" data-number>0</button>
+          <button class="green num">0</button>
           <button class="green" id="pointBtn">.</button>
           <button class="orange" id="equalsBtn">=</button>
         </div>
       </div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
